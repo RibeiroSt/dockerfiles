@@ -1,0 +1,11 @@
+
+Build
+-----
+
+    & docker build -t redis - < /home/areski/projects/docker/dockerfiles/redis/Dockerfile
+
+
+Run
+---
+
+    & docker run -d redis

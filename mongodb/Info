@@ -1,2 +1,11 @@
-docker build -t mongodb - < /home/areski/projects/docker/dockerfiles/mongodb/Dockerfile 
 
+Build
+-----
+
+    & docker build -t mongodb - < /home/areski/projects/docker/dockerfiles/mongodb/Dockerfile
+
+
+Run
+---
+
+    & docker run -d mongodb
