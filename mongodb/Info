@@ -1,0 +1,2 @@
+docker build -t mongodb - < /home/areski/projects/docker/dockerfiles/mongodb/Dockerfile 
+
