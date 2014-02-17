@@ -26,7 +26,7 @@ Retrieve the last Container ID:
 
 Commit your last container and create a new image:
 
-    $ docker commit `dl` mydebian_apache_asterisk
+    $ docker commit -m "Asterisk with Apache" `dl` mydebian_apache_asterisk
 
 
 Now launch a new container with open port for the image mydebian_apache_asterisk:
