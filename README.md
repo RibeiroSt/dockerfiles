@@ -1,4 +1,4 @@
 dockerfiles
 ===========
 
-Repo to keep my dockerfiles
+Repo with a collections of my dockerfiles
