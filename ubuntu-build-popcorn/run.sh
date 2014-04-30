@@ -7,7 +7,7 @@ test -d $OUT || mkdir $OUT
 
 # Run build container
 echo "Running build container..."
-docker run -v $OUT:/home/popcorn-build/bin:rw georgesapkin/ubuntu-build-popcorn /home/popcorn-build/build-popcorn.sh
+docker run -v $OUT:/home/popcorn-build/bin:rw areski/ubuntu-build-popcorn /home/popcorn-build/build-popcorn.sh
 
 if [ -n "`arch | grep 64`" ] ; then
 	#64bits

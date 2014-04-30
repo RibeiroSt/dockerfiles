@@ -1,2 +1,2 @@
 #! /bin/bash
-docker build -t georgesapkin/ubuntu-build-popcorn .
+docker build -t areski/ubuntu-build-popcorn .

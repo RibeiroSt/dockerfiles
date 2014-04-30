@@ -3,7 +3,7 @@ echo "Popcorn Time builder for Ubuntu in Docker"
 
 # Clone git repository
 if [ ! -d popcorn-app ]; then
-	git clone https://github.com/popcorn-org/popcorn-app && echo -e "\e[1;32mOK\n\e[0m"
+	git clone https://github.com/popcorn-official/popcorn-app.git && echo -e "\e[1;32mOK\n\e[0m"
 fi
 
 # Check architecture
